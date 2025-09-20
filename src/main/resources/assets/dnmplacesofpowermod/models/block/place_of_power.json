@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "base": "dnmplacesofpowermod:block/place_of_power",
+    "sword": "minecraft:item/iron_sword",
+    "particle": "dnmplacesofpowermod:block/place_of_power"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "texture": "#base", "cullface": "north" },
+        "east": { "texture": "#base", "cullface": "east" },
+        "south": { "texture": "#base", "cullface": "south" },
+        "west": { "texture": "#base", "cullface": "west" },
+        "up": { "texture": "#base", "cullface": "up" },
+        "down": { "texture": "#base", "cullface": "down" }
+      }
+    },
+    {
+      "from": [7.5, 16, 8],
+      "to": [8.5, 24, 8],
+      "rotation": { "origin": [8, 16, 8], "axis": "x", "angle": 45 },
+      "faces": {
+        "east": { "texture": "#sword", "uv": [0, 0, 16, 16] },
+        "west": { "texture": "#sword", "uv": [0, 0, 16, 16] }
+      }
+    }
+  ]
+}

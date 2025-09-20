@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dnmplacesofpowermod:item/healing_flask"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "dnmplacesofpowermod:charges": 0.0
+      },
+      "model": "dnmplacesofpowermod:item/healing_flask_empty"
+    },
+    {
+      "predicate": {
+        "dnmplacesofpowermod:charges": 0.1
+      },
+      "model": "dnmplacesofpowermod:item/healing_flask_half"
+    },
+    {
+      "predicate": {
+        "dnmplacesofpowermod:charges": 0.2
+      },
+      "model": "dnmplacesofpowermod:item/healing_flask_half"
+    },
+    {
+      "predicate": {
+        "dnmplacesofpowermod:charges": 0.3
+      },
+      "model": "dnmplacesofpowermod:item/healing_flask_full"
+    }
+  ]
+}
